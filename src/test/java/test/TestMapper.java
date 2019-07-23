@@ -24,7 +24,7 @@ public class TestMapper {
     @Resource
     private HouseInfoMapper houseInfoMapper;
     //测试 哈哈哈哈哈
-    //Hi~guys!
+    //Hi~guys!!!
     @Test
     public    void  test(){
          //测试 哈哈哈哈哈
