@@ -24,6 +24,7 @@ public class TestMapper {
     @Resource
     private HouseInfoMapper houseInfoMapper;
     //测试 哈哈哈哈哈
+    //Hi~guys!
     @Test
     public    void  test(){
          //测试 哈哈哈哈哈
@@ -34,7 +35,7 @@ public class TestMapper {
         info.setPrice(10000);
         info.setImages("http://192.168.82.88:82/group1/M00/00/00/wKhSWF0yx0WAca9hAABdrZgsqUU496.jpg");
 
-       int i =  houseInfoMapper.saveHouseInfo(info);
-        System.err.println(i>0?"success":"fail");
+       int saveHouseInfo =  houseInfoMapper.saveHouseInfo(info);
+        System.err.println(saveHouseInfo>0?"success":"fail");
     }
 }
